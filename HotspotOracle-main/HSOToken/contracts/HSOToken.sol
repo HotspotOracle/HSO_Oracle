@@ -8,7 +8,7 @@ import { StandardToken as HSOStandardToken } from "./vendor/StandardToken.sol";
 contract HSOToken is HSOStandardToken, ERC677Token {
 
   uint public constant totalSupply = 10**27;
-  string public constant name = "Hash Bridge Oracel";
+  string public constant name = "HSOStandard";
   uint8 public constant decimals = 18;
   string public constant symbol = "HSO";
 
